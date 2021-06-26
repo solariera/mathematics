@@ -1,21 +1,19 @@
 {
-  "name": "@solariera/template-npm-package",
+  "name": "@solariera/mathmatics",
   "version": "0.0.0",
-  "description": "This is npm package template",
+  "description": "Mathmatics functioins",
   "author": "Solariera <always@solariera.com> (https://github.com/solariera)",
   "license": "MIT",
   "keywords": [
-    "template",
-    "npm",
-    "package"
+    "mathmatics"
   ],
-  "homepage": "https://github.com/solariera/template-npm-package#readme",
+  "homepage": "https://github.com/solariera/mathmatics#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solariera/template-npm-package.git"
+    "url": "git+https://github.com/solariera/mathmatics.git"
   },
   "bugs": {
-    "url": "https://github.com/solariera/template-npm-package/issues"
+    "url": "https://github.com/solariera/mathmatics/issues"
   },
   "publishConfig": {
     "access": "public"

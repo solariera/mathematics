@@ -1,2 +1,2 @@
-declare const template: () => boolean;
-export { template };
+declare const sum: () => number;
+export { sum };
