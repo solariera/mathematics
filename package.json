@@ -10,7 +10,8 @@
   "homepage": "https://github.com/solariera/mathmatics#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solariera/mathmatics.git"
+    "url": "git+https://github.com/solariera/mathmatics.git",
+    "directory": "lib"
   },
   "bugs": {
     "url": "https://github.com/solariera/mathmatics/issues"

@@ -27,7 +27,7 @@ const innerPC =
  * [ [ 0, 1 ], [ 0, 2 ], [ 1, 0 ], [ 1, 2 ], [ 2, 0 ], [ 2, 1 ] ]
  */
 const permFilter = (i: Value) => (options: Value[]) => options.filter((_, j) => j !== i);
-export const perm = innerPC(permFilter)([]);
+export const perm = (values: number[]) => innerPC(permFilter)(values);
 
 /**
  * combine
@@ -36,7 +36,7 @@ export const perm = innerPC(permFilter)([]);
  * [ [ 0, 1 ], [ 0, 2 ], [ 1, 2 ] ]
  */
 const combiFilter = (i: Value) => (options: Value[]) => options.filter((_, j) => j > i);
-export const combine = innerPC(combiFilter)([]);
+export const combine = (values: number[]) => innerPC(combiFilter)(values);
 
 /**
  * repeatedPerm
@@ -52,7 +52,7 @@ export const combine = innerPC(combiFilter)([]);
  *   [ 1, 1, 1 ] ]
  */
 const repPermFilter = () => (options: Value[]) => options;
-export const repeatedPerm = innerPC(repPermFilter)([]);
+export const repeatedPerm = (values: number[]) => innerPC(repPermFilter)(values);
 
 /**
  * repeatedCombine
@@ -61,4 +61,4 @@ export const repeatedPerm = innerPC(repPermFilter)([]);
  * [ [ 0, 0, 0 ], [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 1, 1 ] ]
  */
 const repCombiFilter = (i: Value) => (options: Value[]) => options.filter((_, j) => j >= i);
-export const repeatedCombine = innerPC(repCombiFilter)([]);
+export const repeatedCombine = (values: number[]) => innerPC(repCombiFilter)(values);
