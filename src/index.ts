@@ -1,6 +1,6 @@
 export { aspectRatio } from './aspect-ratio';
 export { perm, combine, repeatedPerm, repeatedCombine } from './combination';
-export { weightedAverage } from './weightedAverage';
+export { weightedAverage } from './weighted-average';
 
 export { average } from './average';
 export { sum } from './sum';
