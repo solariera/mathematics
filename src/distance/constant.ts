@@ -7,7 +7,7 @@ import { AxisType } from './types/2d';
  * @param {AxisType} q 2点目の座標
  * @returns 直線方程式(ax + by + c = 0)の定数{a,b,c}
  */
-const constant = (p: AxisType, q: AxisType): { a: number; b: number; c: number } => {
+export const constant = (p: AxisType, q: AxisType): { a: number; b: number; c: number } => {
   const { x: x1 = 0, y: y1 = 0 } = p;
   const { x: x2 = 0, y: y2 = 0 } = q;
 
@@ -16,5 +16,3 @@ const constant = (p: AxisType, q: AxisType): { a: number; b: number; c: number }
   const c = -a * x1 - b * y1;
   return { a, b, c };
 };
-
-export { constant };

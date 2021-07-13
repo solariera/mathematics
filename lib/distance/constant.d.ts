@@ -6,9 +6,8 @@ import { AxisType } from './types/2d';
  * @param {AxisType} q 2点目の座標
  * @returns 直線方程式(ax + by + c = 0)の定数{a,b,c}
  */
-declare const constant: (p: AxisType, q: AxisType) => {
+export declare const constant: (p: AxisType, q: AxisType) => {
     a: number;
     b: number;
     c: number;
 };
-export { constant };

@@ -6,5 +6,4 @@ import { AxisType } from './types/2d';
  * @param q 直線2点目の座標
  * @param point ある点の座標
  */
-declare const distanceLineToPoint: (p: AxisType, q: AxisType, point: AxisType) => number;
-export { distanceLineToPoint };
+export declare const distanceLineToPoint: (p: AxisType, q: AxisType, point: AxisType) => number;

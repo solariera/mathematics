@@ -1,12 +1,10 @@
-import { variance } from '../variance';
+import { variance, OptionsType } from '../variance';
 
 /**
  * stdev
  * @param values
  * @returns
  */
-const stdev = (...values: number[]): number => {
-  return Math.sqrt(variance(...values));
+export const stdev = (values: number[], options: OptionsType = {}): number => {
+  return Math.sqrt(variance(values, options));
 };
-
-export { stdev };

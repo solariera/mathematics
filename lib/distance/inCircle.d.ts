@@ -7,5 +7,4 @@ import { AxisType } from './types/2d';
  * @param {AxisType} circle 円の中心の座標
  * @param {number} r 円の半径
  */
-declare const inCircle: (p: AxisType, q: AxisType, circle: AxisType, r: number) => boolean;
-export { inCircle };
+export declare const inCircle: (p: AxisType, q: AxisType, circle: AxisType, r: number) => boolean;

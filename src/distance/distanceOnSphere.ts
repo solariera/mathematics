@@ -8,7 +8,7 @@ import { AxisType } from './types/2d';
  * @param q 2点目の経度,緯度
  * @param r 球体の半径
  */
-const distanceOnSphere = (p: AxisType, q: AxisType, r: number): number => {
+export const distanceOnSphere = (p: AxisType, q: AxisType, r: number): number => {
   const { acos, cos, sin } = Math;
   const { x: x1 = 0, y: y1 = 0 } = p;
   const { x: x2 = 0, y: y2 = 0 } = q;
@@ -20,5 +20,3 @@ const distanceOnSphere = (p: AxisType, q: AxisType, r: number): number => {
 
   return r * radian;
 };
-
-export { distanceOnSphere };

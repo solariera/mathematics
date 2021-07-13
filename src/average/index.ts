@@ -5,8 +5,6 @@ import { sum } from '../sum';
  * @param values
  * @returns
  */
-const average = (...values: number[]): number => {
+export const average = (...values: number[]): number => {
   return sum(...values) / values.length;
 };
-
-export { average };

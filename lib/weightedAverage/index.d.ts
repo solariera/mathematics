@@ -7,5 +7,4 @@ export declare type WeightData = {
  * @param data
  * @returns
  */
-declare const weightedAverage: (...data: WeightData[]) => number;
-export { weightedAverage };
+export declare const weightedAverage: (...data: WeightData[]) => number;

@@ -5,5 +5,4 @@
  * @param a
  * @param b
  */
-declare const yPowerApproximation: (x: number, a: number, b: number) => number;
-export { yPowerApproximation };
+export declare const yPowerApproximation: (x: number, a: number, b: number) => number;

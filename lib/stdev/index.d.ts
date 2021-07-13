@@ -1,7 +1,7 @@
+import { OptionsType } from '../variance';
 /**
  * stdev
  * @param values
  * @returns
  */
-declare const stdev: (...values: number[]) => number;
-export { stdev };
+export declare const stdev: (values: number[], options?: OptionsType) => number;

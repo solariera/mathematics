@@ -3,5 +3,4 @@
  * @param values
  * @returns
  */
-declare const median: (...values: number[]) => number;
-export { median };
+export declare const median: (...values: number[]) => number;

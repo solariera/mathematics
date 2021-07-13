@@ -1,7 +1,9 @@
+export declare type OptionsType = {
+    unbiased?: boolean;
+};
 /**
  * variance
  * @param values
  * @returns
  */
-declare const variance: (...values: number[]) => number;
-export { variance };
+export declare const variance: (values: number[], options?: OptionsType) => number;

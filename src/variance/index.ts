@@ -1,35 +1,36 @@
 import { average } from '../average';
 
+export type OptionsType = {
+  unbiased?: boolean;
+};
+
 /**
  * variance
  * @param values
  * @returns
  */
-const variance = (...values: number[]): number => {
+export const variance = (values: number[], options: OptionsType = {}): number => {
+  if (values.length < 2) return 0;
+
+  const { unbiased = true } = options;
+
   /**
    * 値の平均を求める
    */
   const ave = average(...values);
+  let dist = 0;
+  for (let i = 0; i < values.length; i++) {
+    let x = values[i] - ave;
+    dist += x * x;
+  }
 
   /**
-   * 平均値からの差分の配列を生成する
+   * 不偏分散の値を返す
    */
-  const diffs = values.map((current) => {
-    /**
-     * 平均値との差を求める
-     */
-    const difference = current - ave;
-
-    /**
-     * 差を二乗する
-     */
-    return difference ** 2;
-  });
+  if (unbiased) return dist / (values.length - 1);
 
   /**
-   * 平均からの差分の平均が分散となる
+   * 平標本分散の値を返す
    */
-  return average(...diffs);
+  return dist / values.length;
 };
-
-export { variance };

@@ -6,5 +6,4 @@ import { AxisType } from './types/2d';
  * @param q 2点目の経度,緯度
  * @param r 球体の半径
  */
-declare const distanceOnSphere: (p: AxisType, q: AxisType, r: number) => number;
-export { distanceOnSphere };
+export declare const distanceOnSphere: (p: AxisType, q: AxisType, r: number) => number;

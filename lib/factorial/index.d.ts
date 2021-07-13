@@ -3,5 +3,4 @@
  * @param value
  * @returns
  */
-declare const factorial: (value: number) => number;
-export { factorial };
+export declare const factorial: (value: number) => number;

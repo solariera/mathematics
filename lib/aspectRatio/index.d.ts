@@ -5,5 +5,4 @@
  * @param {number} b 2値目
  * @returns {[number, number]} アスペクト比
  */
-declare const aspectRatio: (a: number, b: number) => [number, number];
-export { aspectRatio };
+export declare const aspectRatio: (a: number, b: number) => [number, number];

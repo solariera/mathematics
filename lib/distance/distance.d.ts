@@ -5,5 +5,4 @@ import { AxisType } from './types/2d';
  * @param {AxisType} p 1点目の座標
  * @param {AxisType} q 2点目の座標
  */
-declare const distance: (p: AxisType, q: AxisType) => number;
-export { distance };
+export declare const distance: (p: AxisType, q: AxisType) => number;

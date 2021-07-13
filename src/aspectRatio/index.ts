@@ -7,9 +7,7 @@ import { gcd } from '../gcd';
  * @param {number} b 2値目
  * @returns {[number, number]} アスペクト比
  */
-const aspectRatio = (a: number, b: number): [number, number] => {
+export const aspectRatio = (a: number, b: number): [number, number] => {
   const value: number = gcd(a, b);
   return [a / value, b / value];
 };
-
-export { aspectRatio };

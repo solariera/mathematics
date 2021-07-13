@@ -5,5 +5,4 @@ import { PositionType } from './types/3d';
  * @param p 1点目の座標
  * @param q 2点目の座標
  */
-declare const distance3d: (p: PositionType, q: PositionType) => number;
-export { distance3d };
+export declare const distance3d: (p: PositionType, q: PositionType) => number;
