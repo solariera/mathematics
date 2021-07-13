@@ -1,19 +1,19 @@
 {
-  "name": "@solariera/mathmatics",
-  "version": "0.0.2",
-  "description": "Mathmatics functioins",
+  "name": "@solariera/mathematics",
+  "version": "0.0.0",
+  "description": "mathematics functioins",
   "author": "Solariera <always@solariera.com> (https://github.com/solariera)",
   "license": "MIT",
   "keywords": [
-    "mathmatics"
+    "mathematics"
   ],
-  "homepage": "https://github.com/solariera/mathmatics#readme",
+  "homepage": "https://github.com/solariera/mathematics#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solariera/mathmatics.git"
+    "url": "git+https://github.com/solariera/mathematics.git"
   },
   "bugs": {
-    "url": "https://github.com/solariera/mathmatics/issues"
+    "url": "https://github.com/solariera/mathematics/issues"
   },
   "publishConfig": {
     "access": "public"
