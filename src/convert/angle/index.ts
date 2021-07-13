@@ -1,2 +1,2 @@
-export { degreeToRadian } from './degree-radian';
-export { radianToDegree } from './radian-degree';
+export { degreeToRadian } from './degreeToRadian';
+export { radianToDegree } from './radianToDegree';

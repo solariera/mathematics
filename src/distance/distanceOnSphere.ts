@@ -1,4 +1,4 @@
-import { degreeToRadian } from '../convert/angle/degree-radian';
+import { degreeToRadian } from '../convert/angle/degreeToRadian';
 import { AxisType } from './types/2d';
 
 /**
